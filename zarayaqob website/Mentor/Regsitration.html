@@ -10,79 +10,79 @@
 <body>
     <div class="maincontainer">
         <div class="subcontainer">
-        <h1>User Register</h1>
-        
-        <form onSubmit={handleSubmit} method="post">
-        <div>
-            <input
-                type="text"
-                name="username"
-                id="username"
-                ref={usernameDOM}
-                placeholder="User Name"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="firstname"
-                id="firstname"
-                ref={firstnameDOM}
-                placeholder="First Name"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="lastname"
-                id="lastname"
-                ref={lastnameDOM}
-                placeholder="Last Name"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="email"
-                id="email"
-                ref={emailDOM}
-                placeholder="Email"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="phone"
-                id="phone"
-                ref={phoneDOM}
-                placeholder="Mobile Number"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="password"
-                id="password"
-                ref={passwordDOM}
-                placeholder="Password"
-            />
-        </div>
-        <div>
-            <input
-                type="text"
-                name="confirmpassword"
-                id="confirmpassword"
-                ref={confirmpasswordsDOM}
-                placeholder="Confirm Password"
-            />
-        </div>
-        <div>
-            <br/>
-            <p >I agree to the <a  href="#" >Privacy Policy</a> and <a  href="#" class={"signupone"}>terms of service.</a></p>
-            <input type="submit" value="Register" class="submit" />
-            <br/><br/>
-        </div>
-        </form>
+            <h1>User Register</h1>            
+            <form onSubmit={handleSubmit} method="post">
+                <div>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        ref={usernameDOM}
+                        placeholder="User Name"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="firstname"
+                        id="firstname"
+                        ref={firstnameDOM}
+                        placeholder="First Name"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                        ref={lastnameDOM}
+                        placeholder="Last Name"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        ref={emailDOM}
+                        placeholder="Email"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        ref={phoneDOM}
+                        placeholder="Mobile Number"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="password"
+                        id="password"
+                        ref={passwordDOM}
+                        placeholder="Password"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="confirmpassword"
+                        id="confirmpassword"
+                        ref={confirmpasswordsDOM}
+                        placeholder="Confirm Password"
+                    />
+                </div>
+                <div>
+                    <br/>
+                    <p >I agree to the <a  href="#" >Privacy Policy</a> and <a  href="#" class={"signupone"}>terms of service.</a></p>
+                    <input type="submit" value="Register" class="submit" />
+                    <a href="index.html"><input type="button" value="Close" class="submit" /></a>
+                    <br/><br/>
+                </div>
+            </form>
         </div>
     </div>
 </body>
