@@ -10,8 +10,9 @@
 <body>
     <div class="maincontainer">
         <div class="subcontainer">
+            <div id="result"></div>
             <h1>User Register</h1>            
-            <form onSubmit={handleSubmit} method="post">
+            <form onSubmit={handleSubmit} method="post" id="myForm">
                 <div>
                     <input
                         type="text"
@@ -79,11 +80,14 @@
                     <br/>
                     <p >I agree to the <a  href="#" >Privacy Policy</a> and <a  href="#" class={"signupone"}>terms of service.</a></p>
                     <input type="submit" value="Register" class="submit" />
-                    <a href="index.html"><input type="button" value="Close" class="submit" /></a>
+                    <a href="loginadmin.html"><input type="button" value="Admin" class="submit" /></a>
                     <br/><br/>
                 </div>
             </form>
         </div>
     </div>
+
+
+    <script src="./assets/js/Register.js"></script>
 </body>
 </html>
