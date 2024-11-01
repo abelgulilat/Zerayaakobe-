@@ -14,7 +14,7 @@ const start = async ()=>{
         console.log("DATABASE CONNECTED")
         console.log(`server running at http://localhost:${port}`)
     } catch(err){
-        console.log("something went wrong");
+        console.log("something went wrong");//something
     }
 
 }
